@@ -1,0 +1,36 @@
+{
+  "profileVersion": "0.5",
+  "repositoryOperatingVersion": "0.1",
+  "workspace": {
+    "resourceId": "0d4a6f78-c945-471f-9f55-871e0812346d",
+    "name": "Fictional Lab Brand 001",
+    "ownerRef": "organisation/fictional-lab-001",
+    "defaultLocale": "en-IE",
+    "provenance": {
+      "sources": [
+        {
+          "id": "fictional-lab-manifest",
+          "kind": "repository-control",
+          "uri": ".brandchief/manifest.json"
+        }
+      ],
+      "mappingState": "canonical"
+    }
+  },
+  "capabilities": [
+    {
+      "key": "visual",
+      "class": "standard-domain",
+      "status": "active",
+      "contractVersion": "0.5",
+      "contractId": "https://schemas.brandchief.io/profile/0.5/domain/visual.schema.json",
+      "semanticRole": "brand-domain",
+      "sourceZones": [
+        {
+          "path": "brand/visual/**/*.md",
+          "format": "markdown-frontmatter"
+        }
+      ]
+    }
+  ]
+}
